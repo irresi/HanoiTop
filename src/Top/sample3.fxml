@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Top.ShowController2">
+   <children>
+      <Canvas fx:id="canvas" height="800.0" width="1400.0" />
+      <Label fx:id="IM" layoutX="410.0" layoutY="742.0" text="Invalid Move">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="arrow" fitHeight="50.0" fitWidth="30.0" layoutX="1.0" layoutY="739.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+         <image>
+            <Image url="@arrow.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="Success" layoutX="389.0" layoutY="705.0" prefHeight="75.0" prefWidth="311.0" text="Success">
+         <font>
+            <Font name="Consolas" size="64.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
