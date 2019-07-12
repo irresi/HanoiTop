@@ -1,4 +1,4 @@
-<HanoiTop>
+# HanoiTop
 ### Extended Hanoi Top Solver
 # ToDo
 - clean up class static and public etc.
