@@ -1,7 +1,10 @@
 # HanoiTop
 ### Extended Hanoi Top Solver
-# ToDo
+
+## ToDo
 - clean up class static and public etc.
 
-# CanDo
+## CanDo
 - Solve Extended HanoiTop(move<=1e8, Top<=30, Column<=10)
+- Play HanoiTop
+- Print HanoiTop movement to console
